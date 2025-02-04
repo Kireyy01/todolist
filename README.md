@@ -116,3 +116,4 @@ The project follows a modular and organized structure to enhance readability, ma
    - **Violation:** Original code lacked a clear structure for theme handling.
    - **Refactoring:** Introduced a `ThemeSwitcher` class, applying the Singleton pattern for centralized theme management and persistence.
 
+### working of todolist
