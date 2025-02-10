@@ -98,4 +98,24 @@ The project follows a modular and organized structure to enhance readability, ma
    - **Violation:** Original code was less extensible, requiring modifications for new features.
    - **Refactoring:** Designed for extensibility, allowing addition of new features without modifying existing classes.
 
+3. **Dependency Inversion Principle (DIP):**
+   - **Violation:** Original code exhibited high coupling.
+   - **Refactoring:** Followed DIP by depending on abstractions, enhancing flexibility and testability.
+
+### Design Pattern Violations Addressed:
+
+1. **Observer Pattern for Event Handling:**
+   - **Violation:** Original code used inline event listeners.
+   - **Refactoring:** Employed Observer pattern by encapsulating event handling within the `UIManager` class.
+
+2. **Strategy Pattern for Task Formatting:**
+   - **Violation:** Original code lacked a clear strategy for formatting tasks.
+   - **Refactoring:** Introduced a `TodoItemFormatter` class, applying the Strategy pattern for consistent task formatting.
+
+3. **Singleton Pattern for Theme Handling:**
+   - **Violation:** Original code lacked a clear structure for theme handling.
+   - **Refactoring:** Introduced a `ThemeSwitcher` class, applying the Singleton pattern for centralized theme management and persistence.
+
+### working of todolist
+ 
 
